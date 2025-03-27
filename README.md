@@ -3,8 +3,8 @@
 * Create an RDS MySQL instance.
 * Create an EC2 instance in the same VPC.
 * Install MySQL Shell in EC2: sudo dnf install mariadb105
-- Check if MySql Shell is installed successfully: mysql --verion
-* Connect to MySQL from EC2 using MySQL CLI: mysql -h your-rds-endpoint -u admin -p
+- Check if MySql Shell is installed successfully: mysql --version
+* Connect to MySQL from EC2 using MySQL CLI: mysql -h hw04-db.cylcw6ia4e5d.us-east-1.rds.amazonaws.com -u admin -p
 * Run the following commands in MySQL Shell:
 ```
 CREATE DATABASE company;
